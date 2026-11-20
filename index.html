@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #ffffff;
+      color: #222222;
+      line-height: 1.7;
+    }
+
+    header {
+      padding: 24px 8%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #eeeeee;
+    }
+
+    .logo {
+      font-size: 21px;
+      font-weight: bold;
+    }
+
+    nav a {
+      color: #333;
+      text-decoration: none;
+      margin-left: 24px;
+      font-size: 14px;
+    }
+
+    .hero {
+      padding: 110px 8%;
+      max-width: 1000px;
+    }
+
+    .hero p {
+      color: #777;
+      margin-bottom: 15px;
+    }
+
+    h1 {
+      font-size: clamp(42px, 8vw, 76px);
+      line-height: 1.1;
+      margin-bottom: 24px;
+    }
+
+    .description {
+      max-width: 550px;
+      color: #666;
+      font-size: 17px;
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 30px;
+      padding: 12px 24px;
+      background: #222;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+
+    section {
+      padding: 65px 8%;
+      border-top: 1px solid #eeeeee;
+    }
+
+    section h2 {
+      font-size: 30px;
+      margin-bottom: 18px;
+    }
+
+    .project {
+      padding: 22px 0;
+      border-bottom: 1px solid #eeeeee;
+    }
+
+    footer {
+      padding: 30px 8%;
+      color: #888;
+      font-size: 13px;
+    }
+
+    @media (max-width: 600px) {
+      header {
+        flex-direction: column;
+        gap: 12px;
+      }
+
+      nav a {
+        margin: 0 7px;
+      }
+
+      .hero {
+        padding-top: 75px;
+        padding-bottom: 75px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <div class="logo">My Portfolio.</div>
+
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <div class="hero">
+      <p>HELLO, WELCOME TO MY PORTFOLIO</p>
+
+      <h1>I'm a Student & Future Creator.</h1>
+
+      <div class="description">
+        I'm passionate about learning, exploring new ideas,
+        and developing skills that will help me create
+        something meaningful.
+      </div>
+
+      <a href="#projects" class="button">
+        Explore My Work →
+      </a>
+    </div>
+
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        I'm a student who enjoys learning new things,
+        discovering my interests, and challenging myself.
+        This portfolio is where I'll share my journey,
+        projects, and achievements.
+      </p>
+    </section>
+
+    <section id="skills">
+      <h2>My Skills</h2>
+      <p>I'm currently exploring and developing my skills.</p>
+      <p>Learning · Creativity · Communication · Problem Solving</p>
+    </section>
+
+    <section id="projects">
+      <h2>My Projects</h2>
+
+      <div class="project">
+        <h3>My First Project</h3>
+        <p>A project I'll add to my portfolio soon.</p>
+      </div>
+
+      <div class="project">
+        <h3>My Learning Journey</h3>
+        <p>Documenting the skills and knowledge I develop.</p>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Let's Connect</h2>
+      <p>I'd love to connect and share ideas.</p>
+      <p>Email: your-email@example.com</p>
+    </section>
+  </main>
+
+  <footer>
+    © 2026 My Portfolio. Built with curiosity.
+  </footer>
+
+</body>
+</html>
